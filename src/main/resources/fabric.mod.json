@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "boiling-cauldron",
+	"version": "${version}",
+	"name": "沸鼎烟火",
+	"description": "以火锅为主题的模组!",
+	"authors": [
+		"Xkbsx和他可敬的画师们"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/boiling-cauldron/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.boilingcauldron.BoilingCauldron"
+		],
+		"fabric-datagen": [
+			"com.boilingcauldron.BoilingCauldronDataGenerator"
+		],
+		"client": [
+			"com.boilingcauldron.BoilingCauldronClient"
+		]
+	},
+	"mixins": [
+		"boiling-cauldron.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
