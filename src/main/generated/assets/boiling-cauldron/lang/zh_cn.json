@@ -1,10 +1,18 @@
 {
+  "block.boiling-cauldron.garlic_crop": "大蒜作物",
+  "block.boiling-cauldron.ginger_crop": "生姜作物",
+  "block.boiling-cauldron.gong_cai_crop": "贡菜作物",
+  "block.boiling-cauldron.sichuan_pepper_crop": "花椒作物",
   "item.boiling-cauldron.bamboo_fungus": "竹荪",
   "item.boiling-cauldron.garlic": "大蒜",
+  "item.boiling-cauldron.garlic_seeds": "大蒜种子",
   "item.boiling-cauldron.ginger": "生姜",
+  "item.boiling-cauldron.ginger_seeds": "生姜种子",
   "item.boiling-cauldron.gong_cai": "贡菜",
+  "item.boiling-cauldron.gong_cai_seeds": "贡菜种子",
   "item.boiling-cauldron.lotus_root": "莲藕",
   "item.boiling-cauldron.sichuan_pepper": "花椒",
+  "item.boiling-cauldron.sichuan_pepper_seeds": "花椒种子",
   "item.boiling-cauldron.winter_bamboo_shoots": "冬笋",
   "itemgroup.boiling_cauldron": "沸鼎烟火"
 }

@@ -15,18 +15,16 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.Gong_Cai))
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.Ginger);
-               // entries.add(ModItems.Ginger_Seeds);
+                entries.add(ModItems.Ginger_Seeds);
                 entries.add(ModItems.Garlic);
-                //entries.add(ModItems.Garlic_Seeds);
+                entries.add(ModItems.Garlic_Seeds);
                 entries.add(ModItems.Gong_Cai);
-                //entries.add(ModItems.Gong_Cai_Seeds);
+                entries.add(ModItems.Gong_Cai_Seeds);
                 entries.add(ModItems.Winter_Bamboo_Shoots);
                 entries.add(ModItems.Bamboo_Fungus);
-               // entries.add(ModItems.Bamboo_Fungus_Block);
                 entries.add(ModItems.Lotus_Root);
-               // entries.add(ModItems.Lotus_Root_Seeds);
                 entries.add(ModItems.Sichuan_Pepper);
-               // entries.add(ModItems.Sichuan_Pepper_Seeds);
+                entries.add(ModItems.Sichuan_Pepper_Seeds);
 
             })
             .build();

@@ -1,10 +1,18 @@
 {
+  "block.boiling-cauldron.garlic_crop": "Garlic Crop",
+  "block.boiling-cauldron.ginger_crop": "Ginger Crop",
+  "block.boiling-cauldron.gong_cai_crop": "Gong Cai Crop",
+  "block.boiling-cauldron.sichuan_pepper_crop": "Sichuan Pepper Crop",
   "item.boiling-cauldron.bamboo_fungus": "Bamboo Fungus",
   "item.boiling-cauldron.garlic": "Garlic",
+  "item.boiling-cauldron.garlic_seeds": "Garlic Seeds",
   "item.boiling-cauldron.ginger": "Ginger",
+  "item.boiling-cauldron.ginger_seeds": "Ginger Seeds",
   "item.boiling-cauldron.gong_cai": "Gong Cai",
+  "item.boiling-cauldron.gong_cai_seeds": "Gong Cai Seeds",
   "item.boiling-cauldron.lotus_root": "Lotus Root",
   "item.boiling-cauldron.sichuan_pepper": "Sichuan Pepper",
+  "item.boiling-cauldron.sichuan_pepper_seeds": "Sichuan Pepper Seeds",
   "item.boiling-cauldron.winter_bamboo_shoots": "Winter Bamboo Shoots",
   "itemgroup.boiling_cauldron": "Boiling Cauldron"
 }
