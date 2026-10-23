@@ -1,6 +1,7 @@
 package com.boilingcauldron.item;
 
 import com.boilingcauldron.BoilingCauldron;
+import com.boilingcauldron.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,7 +23,11 @@ public class ModItemGroups {
                 entries.add(ModItems.Gong_Cai_Seeds);
                 entries.add(ModItems.Winter_Bamboo_Shoots);
                 entries.add(ModItems.Bamboo_Fungus);
+                entries.add(ModBlocks.BAMBOO_FUNGUS_COLONY);
+                entries.add(ModBlocks.BAMBOO_ROOT);
                 entries.add(ModItems.Lotus_Root);
+                entries.add(ModBlocks.BLOOMING_LOTUS_LEAF);
+                entries.add(ModBlocks.LOTUS_MUD);
                 entries.add(ModItems.Sichuan_Pepper);
                 entries.add(ModItems.Sichuan_Pepper_Seeds);
 

@@ -1,6 +1,7 @@
 package com.boilingcauldron;
 
 import com.boilingcauldron.block.ModBlocks;
+import com.boilingcauldron.block.entity.ModBlockEntities;
 import com.boilingcauldron.item.ModItemGroups;
 import com.boilingcauldron.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -26,6 +27,7 @@ public class BoilingCauldron implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModBlocks.registerBlocks();   // 先注册作物方块
+		ModBlockEntities.registerBlockEntities(); // 再注册方块实体类型
 		ModItems.registerItems();     // 再注册种子 BlockItem 并回填种子引用
 		ModItemGroups.RegisterGroups();
 

@@ -1,7 +1,12 @@
 {
+  "block.boiling-cauldron.bamboo_fungus_colony": "Bamboo Fungus Colony",
+  "block.boiling-cauldron.bamboo_root": "Bamboo Root",
+  "block.boiling-cauldron.bamboo_shoot_crop": "Winter Bamboo Shoot Crop",
+  "block.boiling-cauldron.blooming_lotus_leaf": "Blooming Lotus Leaf",
   "block.boiling-cauldron.garlic_crop": "Garlic Crop",
   "block.boiling-cauldron.ginger_crop": "Ginger Crop",
   "block.boiling-cauldron.gong_cai_crop": "Gong Cai Crop",
+  "block.boiling-cauldron.lotus_mud": "Lotus Mud",
   "block.boiling-cauldron.sichuan_pepper_crop": "Sichuan Pepper Crop",
   "item.boiling-cauldron.bamboo_fungus": "Bamboo Fungus",
   "item.boiling-cauldron.garlic": "Garlic",

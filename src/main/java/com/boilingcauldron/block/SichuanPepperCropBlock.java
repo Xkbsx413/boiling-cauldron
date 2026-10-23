@@ -26,8 +26,8 @@ import net.minecraft.world.event.GameEvent;
 
 public class SichuanPepperCropBlock extends CropBlock {
     public SichuanPepperCropBlock(Settings settings) {super(settings);}
-    public static final int MAX_AGE = 3;
-    public static final IntProperty AGE = Properties.AGE_3;
+    public static final int MAX_AGE = 4;
+    public static final IntProperty AGE = Properties.AGE_4;
 
     private ItemConvertible seedsItem;
 
@@ -39,7 +39,8 @@ public class SichuanPepperCropBlock extends CropBlock {
             Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 8.0, 13.0),
             Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 12.0, 14.0),
             Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 14.0, 14.0),
-            Block.createCuboidShape(1.0, 0.0, 1.0, 15.0, 16.0, 15.0)
+            Block.createCuboidShape(1.0, 0.0, 1.0, 15.0, 16.0, 15.0),
+            Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 16.0, 16.0)
     };
 
     @Override
@@ -77,6 +78,7 @@ public class SichuanPepperCropBlock extends CropBlock {
     }
 
     @Override
+    @SuppressWarnings("deprecation")
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         int age = state.get(AGE);
         boolean mature = age == MAX_AGE;

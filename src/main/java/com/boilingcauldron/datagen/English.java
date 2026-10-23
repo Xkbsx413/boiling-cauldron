@@ -29,6 +29,11 @@ public class English extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GARLIC_CROP, "Garlic Crop");
         translationBuilder.add(ModBlocks.GONG_CAI_CROP, "Gong Cai Crop");
         translationBuilder.add(ModBlocks.SICHUAN_PEPPER_CROP, "Sichuan Pepper Crop");
+        translationBuilder.add(ModBlocks.BAMBOO_SHOOT_CROP, "Winter Bamboo Shoot Crop");
+        translationBuilder.add(ModBlocks.BAMBOO_ROOT, "Bamboo Root");
+        translationBuilder.add(ModBlocks.BAMBOO_FUNGUS_COLONY, "Bamboo Fungus Colony");
+        translationBuilder.add(ModBlocks.BLOOMING_LOTUS_LEAF, "Blooming Lotus Leaf");
+        translationBuilder.add(ModBlocks.LOTUS_MUD, "Lotus Mud");
         
         translationBuilder.add("itemgroup.boiling_cauldron", "Boiling Cauldron");
     }

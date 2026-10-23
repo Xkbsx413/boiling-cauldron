@@ -1,7 +1,12 @@
 {
+  "block.boiling-cauldron.bamboo_fungus_colony": "竹荪菌落",
+  "block.boiling-cauldron.bamboo_root": "竹根殖块",
+  "block.boiling-cauldron.bamboo_shoot_crop": "冬笋作物",
+  "block.boiling-cauldron.blooming_lotus_leaf": "盛花荷叶",
   "block.boiling-cauldron.garlic_crop": "大蒜作物",
   "block.boiling-cauldron.ginger_crop": "生姜作物",
   "block.boiling-cauldron.gong_cai_crop": "贡菜作物",
+  "block.boiling-cauldron.lotus_mud": "藏藕泥块",
   "block.boiling-cauldron.sichuan_pepper_crop": "花椒作物",
   "item.boiling-cauldron.bamboo_fungus": "竹荪",
   "item.boiling-cauldron.garlic": "大蒜",

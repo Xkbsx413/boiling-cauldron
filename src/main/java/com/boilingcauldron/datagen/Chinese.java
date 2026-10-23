@@ -29,6 +29,11 @@ public class Chinese extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GARLIC_CROP, "大蒜作物");
         translationBuilder.add(ModBlocks.GONG_CAI_CROP, "贡菜作物");
         translationBuilder.add(ModBlocks.SICHUAN_PEPPER_CROP, "花椒作物");
+        translationBuilder.add(ModBlocks.BAMBOO_SHOOT_CROP, "冬笋作物");
+        translationBuilder.add(ModBlocks.BAMBOO_ROOT, "竹根殖块");
+        translationBuilder.add(ModBlocks.BAMBOO_FUNGUS_COLONY, "竹荪菌落");
+        translationBuilder.add(ModBlocks.BLOOMING_LOTUS_LEAF, "盛花荷叶");
+        translationBuilder.add(ModBlocks.LOTUS_MUD, "藏藕泥块");
         
         translationBuilder.add("itemgroup.boiling_cauldron", "沸鼎烟火");
     }
