@@ -18,6 +18,11 @@ public class ModItems {
     public static final Item Sichuan_Pepper = registerItem("sichuan_pepper", new Item(new Item.Settings().food(ModFoodComponents.Sichuan_Pepper))); // 花椒
     public static final Item Bamboo_Fungus = registerItem("bamboo_fungus", new Item(new Item.Settings().food(ModFoodComponents.Bamboo_Fungus))); // 竹荪（物品：可食用，不可种植）
 
+    // 底料物品（不可食用，后续用于制作麻辣烫 / 钵钵鸡）
+    public static final Item Mushroom_Base = registerItem("mushroom_base", new Item(new Item.Settings())); // 菌菇底料
+    public static final Item Mala_Base = registerItem("mala_base", new Item(new Item.Settings())); // 麻辣底料
+    public static final Item Rattan_Pepper_Base = registerItem("rattan_pepper_base", new Item(new Item.Settings())); // 藤椒底料
+
     // 种子物品（SeedItem 继承 BlockItem，指定自定义翻译键避免冲突）
     public static final Item Ginger_Seeds = registerSeed("ginger_seeds", ModBlocks.GINGER_CROP, "item.boiling-cauldron.ginger_seeds");
     public static final Item Garlic_Seeds = registerSeed("garlic_seeds", ModBlocks.GARLIC_CROP, "item.boiling-cauldron.garlic_seeds");

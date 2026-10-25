@@ -17,6 +17,10 @@ public class English extends FabricLanguageProvider {
         translationBuilder.add(ModItems.Lotus_Root, "Lotus Root");
         translationBuilder.add(ModItems.Sichuan_Pepper, "Sichuan Pepper");
         translationBuilder.add(ModItems.Bamboo_Fungus, "Bamboo Fungus");
+        // 底料翻译
+        translationBuilder.add(ModItems.Mushroom_Base, "Mushroom Base");
+        translationBuilder.add(ModItems.Mala_Base, "Mala Base");
+        translationBuilder.add(ModItems.Rattan_Pepper_Base, "Rattan Pepper Base");
         
         // 种子翻译
         translationBuilder.add(ModItems.Ginger_Seeds, "Ginger Seeds");

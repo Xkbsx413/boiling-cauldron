@@ -23,6 +23,10 @@ public class ModItemGroups {
                 entries.add(ModItems.Gong_Cai_Seeds);
                 entries.add(ModItems.Winter_Bamboo_Shoots);
                 entries.add(ModItems.Bamboo_Fungus);
+                // 底料物品
+                entries.add(ModItems.Mushroom_Base);
+                entries.add(ModItems.Mala_Base);
+                entries.add(ModItems.Rattan_Pepper_Base);
                 entries.add(ModBlocks.BAMBOO_FUNGUS_COLONY);
                 entries.add(ModBlocks.BAMBOO_ROOT);
                 entries.add(ModItems.Lotus_Root);

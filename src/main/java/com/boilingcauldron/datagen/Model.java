@@ -138,6 +138,10 @@ public class Model extends FabricModelProvider {
         itemModelGenerator.register(ModItems.Lotus_Root, Models.GENERATED);
         itemModelGenerator.register(ModItems.Sichuan_Pepper, Models.GENERATED);
         itemModelGenerator.register(ModItems.Bamboo_Fungus, Models.GENERATED);
+        // 底料物品模型
+        itemModelGenerator.register(ModItems.Mushroom_Base, Models.GENERATED);
+        itemModelGenerator.register(ModItems.Mala_Base, Models.GENERATED);
+        itemModelGenerator.register(ModItems.Rattan_Pepper_Base, Models.GENERATED);
         // 种子为 BlockItem(SeedItem)，自动从方块模型生成物品模型，无需手动注册
     }
 }

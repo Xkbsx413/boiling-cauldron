@@ -17,6 +17,10 @@ public class Chinese extends FabricLanguageProvider {
         translationBuilder.add(ModItems.Lotus_Root, "莲藕");
         translationBuilder.add(ModItems.Sichuan_Pepper, "花椒");
         translationBuilder.add(ModItems.Bamboo_Fungus, "竹荪");
+        // 底料翻译
+        translationBuilder.add(ModItems.Mushroom_Base, "菌菇底料");
+        translationBuilder.add(ModItems.Mala_Base, "麻辣底料");
+        translationBuilder.add(ModItems.Rattan_Pepper_Base, "藤椒底料");
         
         // 种子翻译
         translationBuilder.add(ModItems.Ginger_Seeds, "生姜种子");
