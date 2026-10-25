@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-23T22:43:21.0866613	沸鼎烟火/Model Definitions
+// 1.20.1	2026-10-24T13:11:46.2996101	沸鼎烟火/Model Definitions
 49ef77cf224b2e09d3b6ac62690f1889083104f1 assets\boiling-cauldron\models\block\garlic_crop_stage0.json
 3a533f813f21acbb2c4fd2b190663380ce3239af assets\boiling-cauldron\blockstates\bamboo_shoot_crop.json
 8a8b273fadd106ae926f69f84dbafe40380b9112 assets\boiling-cauldron\models\block\blooming_lotus_leaf_stage0.json
@@ -40,8 +40,8 @@ c90b7853cf24def7f51821d557004670db4bb99d assets\boiling-cauldron\models\item\gon
 61dec33c0010039da4e84c82c58827e469739c8a assets\boiling-cauldron\blockstates\lotus_mud.json
 98d6002886d060cee99e5cbf70926d0d27947354 assets\boiling-cauldron\models\block\ginger_crop_stage0.json
 db69566bd3e3a3c701b716440532ed8d29e162e7 assets\boiling-cauldron\models\block\bamboo_fungus_colony.json
-5cdf5b3b59ae4fd57b9bfcc98732da0050fa6eb7 assets\boiling-cauldron\models\item\garlic_seeds.json
 03768153782a8819c9f66c2036578131059c2373 assets\boiling-cauldron\models\item\blooming_lotus_leaf.json
+5cdf5b3b59ae4fd57b9bfcc98732da0050fa6eb7 assets\boiling-cauldron\models\item\garlic_seeds.json
 01e8cb70e810a0b29c4ec1a7a44606fa88974962 assets\boiling-cauldron\models\block\garlic_crop_stage1.json
 b7889a3fde18a2461a7de1ad537a01c0232f69fd assets\boiling-cauldron\models\block\sichuan_pepper_crop_stage4.json
 3a5ed72933461672c58e145c865f1fec93b8d386 assets\boiling-cauldron\models\block\bamboo_shoot_crop_stage0.json
