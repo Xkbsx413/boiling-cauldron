@@ -8,6 +8,8 @@
 - 清理根目录临时文件 `data/`（森罗炒锅配料标签的参考拷贝，不参与构建）。
 - 将 `src/main/generated/.cache/` 加入 `.gitignore`，并从 Git 索引中移除已跟踪的缓存文件。
 - 说明：`src/main/generated` 下新增的方块状态、模型、配方、掉落表和标签仍需随代码提交。
+- 新增 `docs/development-log.md`，完整记录 P1 生存获取入口与 P2 钵钵鸡的开发目标、方案、验收标准和风险。
+- 实现 P1 方案 C：新增村庄箱子种子奖池（`ModLootTableModifiers`）和流浪商人种子交易（`ModTradeOffers`）。
 
 ## 2026-10-25
 

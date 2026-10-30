@@ -15,6 +15,7 @@
 ## 当前内容
 
 - 作物：生姜、大蒜、贡菜、花椒、冬笋
+- 种子获取：四种作物种子可从村庄箱子和流浪商人处获得
 - 菌类与水生材料：竹荪菌落、竹根殖块、盛花荷叶、藏藕泥块
 - 底料：菌菇底料、麻辣底料、藤椒底料
 - 森罗厨房炒锅配方与 `pot_ingredient` 物品标签
@@ -38,7 +39,7 @@
 
 - 数据生成输出位于 `src/main/generated`，除 `.cache` 外需要随代码提交。
 - 手写资源位于 `src/main/resources/assets/boiling-cauldron`。
-- 设计记录位于 `docs/design.md`，变更记录位于 `CHANGELOG.md`。
+- 设计记录位于 `docs/design.md`，开发计划与任务记录位于 `docs/development-log.md`，变更记录位于 `CHANGELOG.md`。
 
 ## 许可证
 

@@ -4,6 +4,8 @@ import com.boilingcauldron.block.ModBlocks;
 import com.boilingcauldron.block.entity.ModBlockEntities;
 import com.boilingcauldron.item.ModItemGroups;
 import com.boilingcauldron.item.ModItems;
+import com.boilingcauldron.loot.ModLootTableModifiers;
+import com.boilingcauldron.trade.ModTradeOffers;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -30,6 +32,8 @@ public class BoilingCauldron implements ModInitializer {
 		ModBlockEntities.registerBlockEntities(); // 再注册方块实体类型
 		ModItems.registerItems();     // 再注册种子 BlockItem 并回填种子引用
 		ModItemGroups.RegisterGroups();
+		ModLootTableModifiers.register(); // 村庄箱子种子奖池
+		ModTradeOffers.register();        // 流浪商人种子交易
 
 	}
 
