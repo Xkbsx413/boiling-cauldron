@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "growth=0": {
+      "model": "boiling-cauldron:block/blooming_lotus_leaf_stage0"
+    },
+    "growth=1": {
+      "model": "boiling-cauldron:block/blooming_lotus_leaf_stage1"
+    },
+    "growth=2": {
+      "model": "boiling-cauldron:block/blooming_lotus_leaf_stage2"
+    },
+    "growth=3": {
+      "model": "boiling-cauldron:block/blooming_lotus_leaf_stage3"
+    },
+    "growth=4": {
+      "model": "boiling-cauldron:block/blooming_lotus_leaf_stage4"
+    }
+  }
+}

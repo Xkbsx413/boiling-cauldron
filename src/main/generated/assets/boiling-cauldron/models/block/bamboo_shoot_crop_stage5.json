@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "boiling-cauldron:block/bamboo_shoot_crop_stage5"
+  }
+}

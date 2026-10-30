@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "boiling-cauldron:garlic",
+    "boiling-cauldron:bamboo_fungus",
+    "boiling-cauldron:sichuan_pepper",
+    "kaleidoscope_cookery:oil_block",
+    "#boiling-cauldron:mushrooms"
+  ]
+}

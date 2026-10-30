@@ -1,0 +1,25 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "boiling-cauldron:garlic"
+    },
+    {
+      "item": "boiling-cauldron:bamboo_fungus"
+    },
+    {
+      "tag": "boiling-cauldron:mushrooms"
+    },
+    {
+      "tag": "boiling-cauldron:mushrooms"
+    },
+    {
+      "item": "kaleidoscope_cookery:oil_block"
+    }
+  ],
+  "result": {
+    "item": "boiling-cauldron:mushroom_base"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

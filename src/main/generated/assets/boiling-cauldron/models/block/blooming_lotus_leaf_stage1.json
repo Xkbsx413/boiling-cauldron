@@ -1,0 +1,41 @@
+{
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#texture",
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ]
+        },
+        "up": {
+          "texture": "#texture",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        0,
+        0.25,
+        0
+      ],
+      "to": [
+        16,
+        0.25,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "particle": "boiling-cauldron:block/blooming_lotus_leaf_stage1",
+    "texture": "boiling-cauldron:block/blooming_lotus_leaf_stage1"
+  }
+}

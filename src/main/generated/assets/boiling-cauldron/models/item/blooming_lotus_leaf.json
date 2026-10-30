@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "boiling-cauldron:block/blooming_lotus_leaf_stage0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "boiling-cauldron:bamboo_shoot_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "5"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "boiling-cauldron:winter_bamboo_shoots"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "bamboo_count=0": {
+      "model": "boiling-cauldron:block/bamboo_root"
+    },
+    "bamboo_count=1": {
+      "model": "boiling-cauldron:block/bamboo_root"
+    },
+    "bamboo_count=2": {
+      "model": "boiling-cauldron:block/bamboo_root"
+    },
+    "bamboo_count=3": {
+      "model": "boiling-cauldron:block/bamboo_root"
+    },
+    "bamboo_count=4": {
+      "model": "boiling-cauldron:block/bamboo_root"
+    },
+    "bamboo_count=5": {
+      "model": "boiling-cauldron:block/bamboo_root"
+    }
+  }
+}
