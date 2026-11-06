@@ -23,6 +23,8 @@ public class ModItems {
     public static final Item Mala_Base = registerItem("mala_base", new Item(new Item.Settings())); // 麻辣底料
     public static final Item Rattan_Pepper_Base = registerItem("rattan_pepper_base", new Item(new Item.Settings())); // 藤椒底料
 
+    public static final Item Bobo_Chicken = registerItem("bobo_chicken", new BoboChickenItem(new Item.Settings().food(ModFoodComponents.Bobo_Chicken))); // 钵钵鸡成品
+
     // 种子物品（SeedItem 继承 BlockItem，指定自定义翻译键避免冲突）
     public static final Item Ginger_Seeds = registerSeed("ginger_seeds", ModBlocks.GINGER_CROP, "item.boiling-cauldron.ginger_seeds");
     public static final Item Garlic_Seeds = registerSeed("garlic_seeds", ModBlocks.GARLIC_CROP, "item.boiling-cauldron.garlic_seeds");

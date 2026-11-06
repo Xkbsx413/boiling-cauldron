@@ -36,5 +36,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.KALEIDOSCOPE_POT_INGREDIENT)
             .add(ModItems.Garlic, ModItems.Bamboo_Fungus, ModItems.Sichuan_Pepper, oilBlock)
             .addTag(ModTags.MUSHROOMS);
+
+        getOrCreateTagBuilder(ModTags.BOBO_CHICKEN)
+            .add(ModItems.Bobo_Chicken);
     }
 }

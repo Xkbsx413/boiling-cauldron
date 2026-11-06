@@ -21,6 +21,12 @@ public class ModBlockEntities {
         FabricBlockEntityTypeBuilder.create(BloomingLotusLeafBlockEntity::new, ModBlocks.BLOOMING_LOTUS_LEAF).build()
     );
 
+    public static final BlockEntityType<BoboChickenPotBlockEntity> BOBO_CHICKEN_POT = Registry.register(
+        Registries.BLOCK_ENTITY_TYPE,
+        BoilingCauldron.id("bobo_chicken_pot"),
+        FabricBlockEntityTypeBuilder.create(BoboChickenPotBlockEntity::new, ModBlocks.BOBO_CHICKEN_POT).build()
+    );
+
     public static void registerBlockEntities() {
     }
 }

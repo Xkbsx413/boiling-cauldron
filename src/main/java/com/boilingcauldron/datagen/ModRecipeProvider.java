@@ -66,6 +66,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_pepper", RecipeProvider.conditionsFromItem(ModItems.Sichuan_Pepper))
                 .offerTo(exporter, BoilingCauldron.id("pepper"));
 
+        // 钵钵鸡锅：8 个红砖围 1 个碗
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BOBO_CHICKEN_POT)
+            .pattern("BBB")
+            .pattern("BTB")
+            .pattern("BBB")
+            .input('B', Items.BRICK)
+            .input('T', Items.BOWL)
+            .criterion("has_brick", RecipeProvider.conditionsFromItem(Items.BRICK))
+            .offerTo(exporter, BoilingCauldron.id("bobo_chicken_pot"));
+
         // 森罗炒锅配方：底料
         // 配方使用森罗油脂块作为材料；炒锅开炒前仍需先抹 1 个液体油脂
         Item oilBlock = Registries.ITEM.get(new Identifier("kaleidoscope_cookery", "oil_block"));

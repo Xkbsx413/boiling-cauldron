@@ -17,6 +17,26 @@ public class English extends FabricLanguageProvider {
         translationBuilder.add(ModItems.Lotus_Root, "Lotus Root");
         translationBuilder.add(ModItems.Sichuan_Pepper, "Sichuan Pepper");
         translationBuilder.add(ModItems.Bamboo_Fungus, "Bamboo Fungus");
+        translationBuilder.add(ModItems.Bobo_Chicken, "Bobo Chicken");
+        translationBuilder.add(ModBlocks.BOBO_CHICKEN_POT, "Bobo Chicken Pot");
+        // 钵钵鸡成品名称与提示
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mushroom", "Mushroom Bobo Chicken");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mala", "Mala Bobo Chicken");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.rattan_pepper", "Rattan Pepper Bobo Chicken");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mushroom_mala", "Mushroom-Mala Bobo Chicken");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mushroom_rattan_pepper", "Mushroom-Rattan Pepper Bobo Chicken");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mala_rattan_pepper", "Mala-Rattan Pepper Bobo Chicken");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.three_flavors", "Three-Flavor Bobo Chicken");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.original", "Original: %s");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavors", "Flavors: %s");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.separator", ", ");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavor.mushroom", "Mushroom");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavor.mala", "Mala");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavor.rattan_pepper", "Rattan Pepper");
+        // 钵钵鸡锅 GUI
+        translationBuilder.add("gui.boiling-cauldron.bobo_chicken_pot.empty", "Empty");
+        translationBuilder.add("gui.boiling-cauldron.bobo_chicken_pot.water", "Water");
+        translationBuilder.add("gui.boiling-cauldron.bobo_chicken_pot.base", "%s · %s uses left");
         // 底料翻译
         translationBuilder.add(ModItems.Mushroom_Base, "Mushroom Base");
         translationBuilder.add(ModItems.Mala_Base, "Mala Base");

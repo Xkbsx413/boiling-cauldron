@@ -50,6 +50,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         // 藏藕泥块：精准采集或锄头掉落自身，否则掉落 1-4 个莲藕
         addLotusMudLootTable();
+
+        // 钵钵鸡锅：破坏掉落自身，内容物由方块实体 onStateReplaced 掉落
+        this.addDrop(ModBlocks.BOBO_CHICKEN_POT);
     }
 
     private void addCropLootTable(Block cropBlock, net.minecraft.item.Item cropItem, net.minecraft.item.Item seedItem) {

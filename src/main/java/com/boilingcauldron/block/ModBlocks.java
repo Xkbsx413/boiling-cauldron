@@ -124,6 +124,17 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.GRAVEL))
     );
 
+    // 钵钵鸡锅：16 格冷泡容器，右键打开 GUI
+    public static final Block BOBO_CHICKEN_POT = register(
+        "bobo_chicken_pot",
+        new BoboChickenPotBlock(AbstractBlock.Settings.create()
+            .mapColor(MapColor.DARK_RED)
+            .strength(1.5f)
+            .sounds(BlockSoundGroup.DECORATED_POT)
+            .requiresTool()
+            .nonOpaque())
+    );
+
     // 统一初始化入口（在 ModInitializer 中调用）
     public static void registerBlocks() {
         // 触发静态初始化

@@ -5,6 +5,7 @@ import com.boilingcauldron.block.entity.ModBlockEntities;
 import com.boilingcauldron.item.ModItemGroups;
 import com.boilingcauldron.item.ModItems;
 import com.boilingcauldron.loot.ModLootTableModifiers;
+import com.boilingcauldron.screen.ModScreenHandlers;
 import com.boilingcauldron.trade.ModTradeOffers;
 import net.fabricmc.api.ModInitializer;
 
@@ -34,6 +35,7 @@ public class BoilingCauldron implements ModInitializer {
 		ModItemGroups.RegisterGroups();
 		ModLootTableModifiers.register(); // 村庄箱子种子奖池
 		ModTradeOffers.register();        // 流浪商人种子交易
+		ModScreenHandlers.register();     // 钵钵鸡锅 GUI
 
 	}
 

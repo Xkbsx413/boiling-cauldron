@@ -17,6 +17,26 @@ public class Chinese extends FabricLanguageProvider {
         translationBuilder.add(ModItems.Lotus_Root, "莲藕");
         translationBuilder.add(ModItems.Sichuan_Pepper, "花椒");
         translationBuilder.add(ModItems.Bamboo_Fungus, "竹荪");
+        translationBuilder.add(ModItems.Bobo_Chicken, "钵钵鸡");
+        translationBuilder.add(ModBlocks.BOBO_CHICKEN_POT, "钵钵鸡锅");
+        // 钵钵鸡成品名称与提示
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mushroom", "菌香的钵钵鸡");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mala", "辣辣的钵钵鸡");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.rattan_pepper", "藤椒的钵钵鸡");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mushroom_mala", "菌香辣辣的钵钵鸡");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mushroom_rattan_pepper", "菌香藤椒的钵钵鸡");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.mala_rattan_pepper", "辣辣藤椒的钵钵鸡");
+        translationBuilder.add("item.boiling-cauldron.bobo_chicken.three_flavors", "三味钵钵鸡");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.original", "原料：%s");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavors", "口味：%s");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.separator", "、");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavor.mushroom", "菌香");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavor.mala", "辣辣");
+        translationBuilder.add("tooltip.boiling-cauldron.bobo_chicken.flavor.rattan_pepper", "藤椒");
+        // 钵钵鸡锅 GUI
+        translationBuilder.add("gui.boiling-cauldron.bobo_chicken_pot.empty", "空锅");
+        translationBuilder.add("gui.boiling-cauldron.bobo_chicken_pot.water", "清水");
+        translationBuilder.add("gui.boiling-cauldron.bobo_chicken_pot.base", "%s · 剩余 %s 次");
         // 底料翻译
         translationBuilder.add(ModItems.Mushroom_Base, "菌菇底料");
         translationBuilder.add(ModItems.Mala_Base, "麻辣底料");

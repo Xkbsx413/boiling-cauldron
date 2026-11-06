@@ -34,6 +34,8 @@ public class ModItemGroups {
                 entries.add(ModBlocks.LOTUS_MUD);
                 entries.add(ModItems.Sichuan_Pepper);
                 entries.add(ModItems.Sichuan_Pepper_Seeds);
+                entries.add(ModBlocks.BOBO_CHICKEN_POT);
+                entries.add(ModItems.Bobo_Chicken);
 
             })
             .build();

@@ -10,4 +10,5 @@ public class ModFoodComponents {
     public static final FoodComponent Lotus_Root = new FoodComponent.Builder().hunger(2).saturationModifier(0.25f).build(); // 莲藕
     public static final FoodComponent Sichuan_Pepper = new FoodComponent.Builder().hunger(2).saturationModifier(0.25f).build(); // 花椒
     public static final FoodComponent Bamboo_Fungus = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f).build(); // 竹荪
+    public static final FoodComponent Bobo_Chicken = new FoodComponent.Builder().hunger(8).saturationModifier(0.55f).build(); // 钵钵鸡成品
 }

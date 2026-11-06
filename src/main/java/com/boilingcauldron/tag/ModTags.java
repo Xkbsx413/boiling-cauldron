@@ -42,6 +42,14 @@ public final class ModTags {
         new Identifier("kaleidoscope_cookery", "pot_ingredient")
     );
 
+    /**
+     * 钵钵鸡成品标签；口味由物品 NBT 区分。
+     */
+    public static final TagKey<Item> BOBO_CHICKEN = TagKey.of(
+        RegistryKeys.ITEM,
+        new Identifier("boiling-cauldron", "bobo_chicken")
+    );
+
     private ModTags() {
     }
 }
